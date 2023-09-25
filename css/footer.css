@@ -1,0 +1,39 @@
+/* FOOTER */
+
+.footer-cont{
+    padding: 80px;
+}
+
+.footer{
+    background-color: hsla(188, 17%, 9%, 0.849);
+    color: #ddddddc5;
+}
+
+.titulo-pie{
+    color: #ddddddc5;
+    font-size: 13px;
+}
+
+.footer-cont{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.footer p{
+    font-size: 13px;
+}   
+
+.webs{
+    display: flex;
+    
+}
+
+.linea{
+    margin: 10px;
+}
+
+.footer2{
+    padding-left: 150px;
+    padding-right: 150px;
+}

@@ -1,0 +1,42 @@
+/* BARRA DE NAVEGACION */
+
+.barra-navegacion{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #ddddddc5;
+    padding: 2%;
+    display: flex;
+    margin: auto;
+}
+
+.barra-navegacion h1{
+    color: #374342;
+    font-family: sans-serif;
+}
+
+.material-icons{
+    color: #374342;
+}
+
+.barra-navegacion nav{
+    padding: 10px 0;
+}
+
+.barra-navegacion ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    color: #374342
+}
+
+.barra-navegacion ul li{
+    display: inline;
+    margin-right: 20px;
+}
+
+.barra-navegacion a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}

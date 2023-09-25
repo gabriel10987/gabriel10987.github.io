@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* MAIN */
+
+.contenedor{
+    padding: 60px 0;
+    width: 80%;
+    margin: auto;
+    max-width: 1500px;
+    overflow: hidden;
+}
+
+/*_____________________________________________________/
+
+/*CUERPO 1*/
+
+.cuerpo{
+    display: flex;
+}
+
+.primer-cuerpo{
+    width: 70%;
+}
+
+.segundo-cuerpo{
+    width: 1%;
+}
+
+.segundo-cuerpo h2{
+    text-align: center;
+}
+
+
+/* PRESENTACIÓN */
+
+.titulo{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #374342;
+    font-size: 25px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+
+.img{
+    margin-right: 20px;
+    padding: 3px;
+    padding-bottom: 10px;
+    border-radius: 300px;
+}
+
+.contenedor-presentacion{
+    display: flex;
+    justify-content: space-evenly;
+    color: #374342d8
+}
+
+/*BIENVENIDA*/
+
+.bienvenida p {
+    color: #374342d8
+}
+
+.bienvenida ul li{
+    font-family: "Latin Modern Roman";
+    font-size: 20px;
+}
+
+h4{
+    color: #374342;
+    padding: 10px;
+}
+
+/*SOBRE MÍ*/
+.sobre-mi-bloque{
+    display: flex;
+}
+
+.habilidades-bloque{
+    color: #374342;
+    padding: 2%; 
+    justify-content: space-evenly;
+}
+
+.formacion-bloque{
+    color: #374342;
+    padding: 3%;
+    justify-content: space-evenly;
+}
+
+.img-lenguajes{
+    padding: 2%;
+    padding-left: 10%;
+    margin:0%;
+}
+
+/* GALERIA */
+
+.galeria-section{
+    background: #3d40440d;
+}
+
+.galeria-section h2{
+    color: #2C3E50;
+}
+
+.galeria{
+    width: 100%;
+}
+
+.botones{
+    margin-top: 1%;
+    text-align: center;
+}
+
+#retroceder, #avanzar{
+    background-color: #2C3E50;
+    width: 100px;
+    font-family: cursive;
+    border-radius: 2px;
+    margin-left: 1%;
+    border: none;
+    color: aliceblue;
+}
+
+/* VIDEO */
+
+.vdo{
+    width: 100%;
+    margin-left: 150px;
+}
+
+/*_____________________________________________________/
+
+/*SEGUNDO CUERPO*/
+.segundo-cuerpo{
+    background-color: #ddddddc5;
+    width: 100%;
+    max-width: 600px;
+    overflow: hidden;
+}
+.musica{
+    padding: 60px 0;
+    width: 50%;
+    margin: auto;
+}
+
+.musica h4{
+    font-family: cursive;
+    text-align: center;
+}
+
+.msc1, .msc2, .msc3{
+    margin-bottom: 30px;
+}
+
+.imgm1, .imgm2, .imgm3, .imgm4{
+    width: 100%;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+/* RECOMENDACIÓN */
+
+#datos{
+    margin-top: 7%;
+    text-align: left;
+}
+
+.recomendacion{
+    width: 100%;
+    margin-left: 8%;
+}
+
+.titulo-datos{
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 60px;
+}
+
+.form{
+    padding: 10px;
+}
+
+.nc{
+    margin-left: 1%;
+}
+
+.nm{
+    margin-left: 2%;
+}
+
+#nombre, #apellido{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    width: 70%;
+    border-radius: 5%;
+    border-color: #37434290;
+}
+
+#nombreCancion, #nombreArtista, #link{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    width: 87%;
+    border-radius: 5%;
+    border-color: #37434290;
+}
+
+.recomendacion label{
+    color: #374342;
+}
+
+#comentario{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    width: 87%;
+    height: 100px;
+    border-radius: 5%;
+    border-color: #37434290;
+}
+
+.enviar{
+    width: 35%;
+    padding: 2px;
+    background: #2C3E50;
+    color: aliceblue;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.enviar-up{
+    text-align: center;
+}

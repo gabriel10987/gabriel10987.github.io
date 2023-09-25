@@ -1,0 +1,41 @@
+/* HEADER */
+
+header{
+    margin-top: 116px;
+    width: 100%;
+    height: 400px;
+    background: #2C3E50;  
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(189, 16%, 9%, 0.658), hsla(210, 29%, 24%, 0.637)), url(../imagenes/programacion.jpg);  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50cd, hsla(210, 29%, 24%, 0.637)), url(../imagenes/programacion.jpg); 
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-attachment: fixed;
+}
+
+nav{    
+    margin: auto;
+    text-align: right;
+    color: white;
+    display: flex;
+}
+
+nav h4{
+    margin:auto;
+}
+
+.titulo-principal{
+    text-align: center;
+    color: #ddddddd3;
+}
+
+.titulo-principal h1{
+    padding-top: 6%;
+    padding-bottom: 2%;
+    font-size: 50px;
+}
+
+.titulo-principal h2{
+    font-size: 25px;
+    font-weight: 500;
+}
