@@ -1,0 +1,60 @@
+@font-face {
+  font-family: Montserrat;
+  font-weight: 300;
+  src: url("../src/assets/fonts/Montserrat-Light.ttf");
+}
+
+@font-face {
+  font-family: Montserrat;
+  font-weight: 400;
+  src: url("../src/assets/fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+  font-family: Montserrat;
+  font-weight: 600;
+  src: url("../src/assets/fonts/Montserrat-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: Montserrat;
+  font-weight: 700;
+  src: url("../src/assets/fonts/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: Montserrat;
+  font-weight: 800;
+  src: url("../src/assets/fonts/Montserrat-ExtraBold.ttf");
+}
+
+@import "tailwindcss";
+
+@theme{
+  --font-montserrat: Montserrat, "sans-serif";
+}
+
+:root {
+  --color-fondo: #0f172a;
+  --color-titulo: #e2e8f0;
+  --color-parrafo: #a6abb7;
+  --color-logo: #94a3b8;
+  --color-hov-logo: #e2e8f0;
+}
+
+.bg-fondo {
+  background-color: var(--color-fondo);
+}
+
+.text-titulo {
+  color: var(--color-titulo);
+}
+
+.text-parrafo {
+  color: var(--color-parrafo);
+}
+
+.text-logo {
+  color: var(--color-logo);
+}
+
